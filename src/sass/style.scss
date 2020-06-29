@@ -1,0 +1,20 @@
+@import 'base/variables';
+
+head {
+  font-size: 10px;
+}
+body {
+  font-size: 20px;
+  font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+}
+
+// .container {
+//   position: relative;
+//   max-width: 950px;
+//   margin: 0 auto;
+// }
+@import 'blocks/header';
+@import 'blocks/button';
+
+
+@import 'base/media';

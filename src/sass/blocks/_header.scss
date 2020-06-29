@@ -1,0 +1,37 @@
+.header {
+  background: url('../img/background/bg_header.jpg') center (center/cover) no-repeat;
+  .navbar {
+    .navbar-toggler {
+      padding: .25rem .75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: .25rem;
+    }
+
+    padding: 2rem 0rem 0rem 0rem;
+    img {
+      width: 96px;
+      height: 100px;
+    }
+    .navbar-brand {
+      margin-right: 3.8rem;
+    }
+
+    .navbar-nav {
+      li.nav-item>a.nav-link {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 0.95em;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+      li.active>a.nav-link {
+        color: #ffffff;
+      }
+    }
+
+  }
+}
