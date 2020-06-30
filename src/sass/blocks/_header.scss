@@ -1,9 +1,10 @@
 .header {
   background: url('../img/background/bg_header.jpg') center (center/cover) no-repeat;
+  padding-bottom: 5rem;
   .navbar {
     .navbar-toggler {
       padding: .25rem .75rem;
-      font-size: 1.25rem;
+      font-size: 1em;
       line-height: 1;
       background-color: #ffffff;
       border: 1px solid #ffffff;
@@ -16,22 +17,141 @@
       height: 100px;
     }
     .navbar-brand {
-      margin-right: 3.8rem;
+      margin-right: 2.8rem;
     }
 
-    .navbar-nav {
-      li.nav-item>a.nav-link {
-        color: #ffffff;
-        font-weight: 500;
-        font-size: 0.95em;
-        &:hover {
-          color: #ffffff;
+    ul.navbar-nav {
+        
+      li {
+        border-right: 1px dotted #858891;
+        &:last-child {
+          border-right: none;
         }
       }
-      li.active>a.nav-link {
+      li>a {
+        font-size: .75em;
+        line-height: .75em;
+        font-weight: 400;
         color: #ffffff;
+        margin: .4rem; //Отступы от a
+        &:hover {
+          cursor: pointer;
+          color: #ec644b;
+        }
+      }
+      li.active>a {
+        margin: .4rem; //Отступы от а
+        color: #ffffff;
+        &:hover {
+          cursor: pointer;
+          color: #ec644b;
+        }
       }
     }
+    .questions {
+      font-size: .7em;
+      line-height: 1.2em;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: right;
+      margin-right: 1.1rem;
+      margin-left: 2.6rem;
+    }
+    .number-phone {
+      font-size: 1.2em;
+      line-height: 1.2em;
+      font-weight: 700;
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  h3.subtitle__descr {
+    padding: 0;
+    margin: 0 auto 1.7rem auto;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  h1.title__main {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    font-size: 3.6em;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $main-color;
+  }
+  h2.subtitle {
+    padding: 0;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    font-size: 2.1em;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 
+  div.wrapper__circle-linear {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 2rem;
+  }
+  div.circle-linear {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 100%;
+    margin: 0 1rem;
+  }
+  .wrapper__circle-linear::before, .wrapper__circle-linear::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 388px;
+    height: 1px;
+    background: #ffffff;
+    position: relative;
+  }
+  .wrapper__circle-linear::before {
+    margin-left: -100%;
+  }
+  .wrapper__circle-linear::after{
+    margin-right: -100%;
+  }
+  .promo-header {
+    .promo-header__item {
+      width: 257px;
+      padding-bottom: 2.6rem;
+      margin: 0 auto;
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 64px;
+        height: 48px;
+        margin-bottom: 2rem;
+      }
+      p {
+        text-align: center;
+        font-size: .8em;
+        line-height: 1.5;
+        font-weight: 300;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+  }
+  .header__btn {
+    display: flex;
+    justify-content: center;
   }
 }

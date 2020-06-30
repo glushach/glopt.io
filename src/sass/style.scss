@@ -5,16 +5,16 @@ head {
 }
 body {
   font-size: 20px;
-  font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-// .container {
-//   position: relative;
-//   max-width: 950px;
-//   margin: 0 auto;
-// }
+
 @import 'blocks/header';
 @import 'blocks/button';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/promo-work';
+@import 'blocks/agent-China';
 
 
 @import 'base/media';

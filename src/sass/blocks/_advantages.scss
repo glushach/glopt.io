@@ -1,0 +1,33 @@
+.advantages {
+  background: #f3f3f3;
+  padding-top: 5rem;
+  padding-bottom: 4.4rem;
+  .row {
+    margin-top: 0.3rem;
+    .col-lg-6 {
+      margin-top: 2.7rem;
+    }
+    .advantages__item {
+      display: flex;
+      img {
+        max-width: 62px;
+        min-width: 62px;
+        height: 65px;
+        margin-right: 1.6rem;
+      }
+      .advantages__wrapper {
+        .advantages__title {
+          font-size: .8em;
+          line-height: 1.2;
+          font-weight: 700;
+          color: $main-color;
+        }
+        .advantages__descr {
+          font-size: .7em;
+          font-weight: 300;
+          color: #3a3a3a;
+        }
+      }
+    }
+  }
+}

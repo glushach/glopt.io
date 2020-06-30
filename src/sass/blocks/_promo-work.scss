@@ -1,0 +1,43 @@
+.promo-work {
+  padding: 3.2rem 0rem 1.4rem;
+  .promo-work__linear {
+    hr {
+      margin-top: 1.3rem;
+      width: 150px;
+      background: #ec644b;
+    }
+  }
+  .promo-work__descr {
+    font-size: 1.05em;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 1.8rem;
+  }
+  .promo-work__item {
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+    img {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+    .promo-work__title {
+      font-size: .9em;
+      line-height: .9em;
+      font-weight: 700;
+      color: $main-color;
+      text-align: center;
+    }
+    .promo-work__descr {
+      font-size: .7em;
+      font-weight: 300;
+      color: #3a3a3a;
+      margin: 0 auto;
+      width: 360px;
+    }
+  }
+}
