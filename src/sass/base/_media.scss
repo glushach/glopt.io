@@ -15,13 +15,57 @@
       margin: 1rem .5rem;
     }
   }
+  .promo-price {
+    .promo-price__item {
+      margin: 0rem auto 2rem auto;
+    }
+  }
+  .consultation {
+    .form__consultation-wrapper {
+      width: 940px;
+    }
+    .form__consultation-wrapper .form__consultation-wrapper_mini .wrapper-img__linear {
+      width: 940px;
+    }
+    .form__consultation-wrapper .wrapper__consultation_linear {
+      width: 940px;
+    }
+  }
 }
+
 @media (max-width: 991px) {
   .header h1.title__main {
     font-size: 2.7em;
   }
   .header h2.subtitle {
     font-size: 1.7em;
+  }
+
+  .consultation {
+    height: 480px;
+    .form__consultation-wrapper {
+      width: 290px;
+      height: 310px;
+    }
+    .form__consultation-wrapper .form__consultation-wrapper_mini .wrapper-img__linear {
+      width: 288px;
+    }
+    .form__consultation-wrapper .wrapper__consultation_linear {
+      width: 290px;
+    }
+  }
+  .consultation .form__consultation-wrapper .form__consultation-wrapper_mini{
+    height: 290px;
+  }
+  .consultation .form__consultation-wrapper{
+    width: 290px;
+    
+  }
+  .consultation .form__consultation-wrapper .form__consultation-wrapper_mini .glopt-form {
+    width: 280px;
+    input {
+      margin: .6rem;
+    }
   }
 }
 
@@ -66,5 +110,27 @@
   }
   .promo-work .promo-work__item .promo-work__descr {
     width: 290px;
+  }
+  .consultation {
+    height: 290px;
+  .form__consultation-wrapper {
+    height: 200px;
+    margin-top: 0;
+      .form__consultation-wrapper_mini {
+        height: 150px;
+        border-right: none;
+        border-left: none;
+        .glopt-form {
+          margin: 0;
+          margin-left: 4px;
+        }
+      }
+      .wrapper-img__linear {
+        display: none;
+      }
+      .wrapper__consultation_linear {
+        display: none;
+      }
+    }
   }
 }

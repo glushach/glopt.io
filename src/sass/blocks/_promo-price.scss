@@ -1,0 +1,71 @@
+.promo-price {
+  padding: 3.5rem 0rem 0rem 0rem;
+  .promo-price__descr {
+    text-align: center;
+    font-size: 1.05em;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #2e2e2e;
+    margin-bottom: 1.3rem;
+  }
+  .promo-price__item {
+    width: 261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0rem auto 2rem auto;;
+  }
+  .promo-price__item-header {
+    width: 261px;
+    height: 61px;
+    background: #25333c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h2 {
+      margin: 0;
+      font-size: .8em;
+      line-height: .8em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+  .promo-price__wrapper {
+    margin: .9rem 0rem 1.3rem 0rem;
+    .promo-price__item-img {
+      min-width: 58px;
+      max-width: 58px;
+      height: 55px;
+      margin: 0 auto .4rem auto;
+      img {
+        width: 100%;
+      }
+
+    }
+    .promo-price__item-title {
+      font-size: .7em;
+      line-height: 1.3;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #2e2e2e;
+      text-align: center;
+      span {
+        font-size: 2em;
+      line-height: 1.3;
+      text-transform: none;
+      color: $btn-color;
+      }
+      
+    }
+    .promo-price__item-descr {
+      font-size: .7em;
+      line-height: 1.5;
+      font-weight: 300;
+      color: #2e2e2e;
+      text-align: center;
+    }
+  }
+}

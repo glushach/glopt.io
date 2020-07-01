@@ -12,10 +12,14 @@
   text-transform: uppercase;
   color: #ffffff;
   &:hover {
+    background: $btn-hover;
     color: #ffffff;
   }
   &_big {
     width: 230px;
     height: 57px;
+  }
+  &_middle {
+    width: 180px;
   }
 }
