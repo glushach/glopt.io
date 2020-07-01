@@ -88,6 +88,9 @@
   body {
     font-size: 16px;
   }
+  // .container-xl {
+  //   padding: 0 7px;
+  // }
   .header div.wrapper__circle-linear {
     display: none;
   }
@@ -101,18 +104,21 @@
   .title {
     font-size: 21px;
   }
-
+  .advantages .row .advantages__item img {
+    max-width: 52px;
+    min-width: 52px;
+  }
   .promo-work .promo-work__descr {
     font-size: .75em;
   }
   .promo-work .promo-work__item {
-    width: 290px;
+    width: 280px;
   }
   .promo-work .promo-work__item .promo-work__descr {
-    width: 290px;
+    width: 280px;
   }
   .consultation {
-    height: 290px;
+    height: 270px;
   .form__consultation-wrapper {
     height: 200px;
     margin-top: 0;
