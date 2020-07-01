@@ -103,8 +103,11 @@
   }
 
   .advantages .row .advantages__item {
-    flex-wrap: wrap;
-    justify-content: center;
+    display: block;
+  }
+  .advantages .row .advantages__item .img__wrapper{
+    margin: 0 auto;
+    width: 62px;
   }
   .promo-work .promo-work__descr {
     font-size: .75em;
