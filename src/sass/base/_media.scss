@@ -40,7 +40,12 @@
   .header h2.subtitle {
     font-size: 1.7em;
   }
-
+  .advantages .row .advantages__item .advantages__wrapper .advantages__title{
+    font-size: 1em;
+  }
+  .advantages .row .advantages__item .advantages__wrapper .advantages__descr{
+    font-size: .9em;
+  }
   .consultation {
     height: 480px;
     .form__consultation-wrapper {
@@ -101,7 +106,9 @@
   .title {
     font-size: 21px;
   }
-
+  .header .promo-header .promo-header__item p {
+    font-size: 1em;
+  }
   .advantages .row .advantages__item {
     display: block;
   }
@@ -109,14 +116,33 @@
     margin: 0 auto;
     width: 62px;
   }
+  .advantages .row .advantages__item .advantages__wrapper .advantages__title{
+    text-align: center;
+    font-size: 1em;
+  }
+  .advantages .row .advantages__item .advantages__wrapper .advantages__descr{
+    text-align: center;
+    font-size: .9em;
+  }
   .promo-work .promo-work__descr {
-    font-size: .75em;
+    font-size: .9em;
   }
   .promo-work .promo-work__item {
     width: 280px;
   }
   .promo-work .promo-work__item .promo-work__descr {
     width: 280px;
+    font-size: .9em;
+  }
+
+  .promo-price .promo-price__item-header h2 {
+    font-size: 1em;
+  }
+  .promo-price .promo-price__wrapper .promo-price__item-title {
+    font-size: .9em;
+  }
+  .promo-price .promo-price__wrapper .promo-price__item-descr {
+    font-size: .8em;
   }
   .consultation {
     height: 270px;
