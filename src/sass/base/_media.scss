@@ -85,7 +85,9 @@
   html {
     font-size: 7px;
   }
-
+  body {
+    font-size: 18px;
+  }
   .header div.wrapper__circle-linear {
     display: none;
   }
@@ -99,9 +101,10 @@
   .title {
     font-size: 21px;
   }
-  .advantages .row .advantages__item img {
-    max-width: 52px;
-    min-width: 52px;
+
+  .advantages .row .advantages__item {
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .promo-work .promo-work__descr {
     font-size: .75em;
