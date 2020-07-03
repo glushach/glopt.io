@@ -176,4 +176,25 @@
       }
     }
   }
+  .scheme-work{
+    .scheme-work__item {
+      .scheme-work__title{
+        font-size: 1em;
+      }
+      .scheme-work__descr{
+        font-size: .9em;
+      }
+    }
+  }
+  .reviews{
+    .carousel{
+      .calousel__title{
+        font-size: 1em;
+        line-height: 1em;
+      }
+      .carousel__descr{
+        font-size: .9em;
+      }
+    }
+  }
 }

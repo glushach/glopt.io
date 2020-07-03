@@ -1,0 +1,33 @@
+.manader-company {
+  background: url('../img/background/bg_manager-company.jpg') center (center/cover) no-repeat;
+  padding: 3.7rem 0rem 4.2rem 0rem;
+  .manader-company__wrapper {
+    .manader-company__icon {
+      width: 102px;
+      height: 102px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1.0px solid #ffffff;
+      border-radius: 100%;
+      margin: 0 auto .7rem;
+      img {
+        width: 53%;
+      }
+    }
+    .manader-company__title {
+      text-align: center;
+      font-size: 1.3em;
+      line-height: 1.15em;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .manader-company__descr {
+      text-align: center;
+      font-size: .95em;
+      line-height: 1.35em;
+      font-weight: 300;
+      color: #ffffff;
+    }
+  }
+}
