@@ -117,6 +117,9 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-slide:focus {
+  outline: none !important;
+}
 .slick-active {
   outline: none;
 }
