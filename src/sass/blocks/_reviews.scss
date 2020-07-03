@@ -64,6 +64,10 @@
       }
     }
     .slick-dots{
+      position:absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 78px;
       display: flex;
       list-style-type: none;
       justify-content: center;
@@ -77,11 +81,11 @@
         border-radius: 50%;
         outline: none;
         border: transparent;
-        background: $btn-color;
+        background: #4169E1;
       }
       .slick-active button{
-        border: green;
-        background: green;
+        border: #0000CD;
+        background:#0000CD;
       }
     }
   }
