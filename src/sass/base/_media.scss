@@ -97,6 +97,13 @@
       }
     }
   }
+  .map{
+    .wrapper__info{
+      position:absolute;
+    top: 30%;
+    left: 48%;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -108,6 +115,39 @@
   }
   .header h2.subtitle {
     font-size: 1.2em;
+  }
+  .map{
+    .wrapper__info{
+      width: 290px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position:absolute;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%);
+      .map__info{
+        width: 282px;
+        margin: 2.3rem 0.5rem 0rem 0rem;
+        padding: 1rem 1.2rem;
+        position: relative;
+      }
+        .map__info::before{
+          display: none;
+        }
+        .map__info::after{
+          content: ""; 
+          border: solid transparent;
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          border-bottom-color: #ffffff;
+          border-width: 20px;
+          margin-left: -1px;
+          z-index: 1;
+      }
+    }
   }
 }
 
@@ -214,5 +254,19 @@
         font-size: .9em;
       }
     }
+  }
+  .map .wrapper__info .map__info address span{
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+  .map .wrapper__info .map__info address{
+    font-size: .9em;
+  }
+  .map .wrapper__info .map__info .map__phone a{
+    font-size: .9em;
+    line-height: 1.5em;
+  }
+  .map .wrapper__info .map__info .map__email a{
+    font-size: .9em;
   }
 }
